@@ -2,23 +2,25 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: "Poppins", serif;
 }
 h1{ 
     background-color: #081b31;
     color: #fff;
     height: 5rem;
     line-height: 5rem;
+    box-shadow: 0 0px 7px black;
 
 }
 .choices{ 
     margin-top: 5rem ;
     display: flex;
    justify-content: center;
-   gap: 3rem;
+   gap: 4rem;
 }
 .choice{ 
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -31,7 +33,7 @@ h1{
        background-color: #081b31;
 }
 img{ 
-    width: 100px;
+    width: 110px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -40,7 +42,7 @@ img{
     display: flex;
     justify-content: center;
     gap: 5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     
 }
 #user-score,#comp-score{
@@ -52,8 +54,12 @@ img{
 #msg{ 
   background-color: #081b31 ;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: inline;
   padding:.4rem .8rem;
   border-radius: 1rem;
+}
+footer{ 
+   font-size: .8rem;
+ margin-top: 8rem;
 }
